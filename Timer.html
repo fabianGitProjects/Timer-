@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="Timer.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timerContainer">
+            <div class="timer" id="days">
+                <div class="label">Tage</div>
+                <div class="time">00</div>
+            </div>
+            <div class="timer" id="hours">
+                <div class="label">Stunden</div>
+                <div class="time">00</div>
+            </div>
+            <div class="timer" id="minutes">
+                <div class="label">Minuten</div>
+                <div class="time">00</div>
+            </div>
+            <div class="timer" id="seconds">
+                <div class="label">Sekunden</div>
+                <div class="time">00</div>
+            </div>
+        </div>
+        <div class="actionButtons">
+            <div class="setButtons">
+                <button id="increaseButton" class="button timerButton">&#43;</button>
+                <button id="decreaseButton" class="button timerButton">&#8722;</button>
+            </div>
+            <div class="controlButtons">
+                <button id="playPauseButton" class="button">&#9658;</button>
+                <button id="restartButton" class="button timerButton">&#8634;</button>
+            </div>
+        </div>
+    </div>
+    <script src="Timer.js"></script>
+</body>
+</html>
